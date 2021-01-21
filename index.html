@@ -2,160 +2,148 @@
 <html lang="en">
 
 <head>
-    <title>Barebones Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+  <!-- Custom styles for this template -->
+  <link href="css/styles.css" rel="stylesheet">
+  <title>My-site</title>
 </head>
 
 <body>
-    <header>
-        <table cellspacing="20">
-            <tr>
-                <td>
-                    <img src="media/lokesh-portfolio.jpg" alt="Angela Amor" style="width:120px;height:150px;">
-                </td>
-                <td>
-                    <h1>
-                        Angela Amor
-                    </h1>
-                    <p>I am freelance <em>Web Developer</em>.</p>
-                    <p>I ❤ coffee and brew my own beers.</p>
-                </td>
-                </tr>
-           
-        </table>
-    </header>
-    <hr>
-    <section>
+  <!-- navigation part, introduction -->
+  <header>
+    <div class="container">
+      <!-- <div class="row">
+        <div class="col-sm-8 col-md-7 py-4"> -->
 
-        <div>
-            <h2>About</h2>
-            <p>I'm a Front-End Developer for ChowNow in Los Angeles, CA.
-                I have serious passion for UI effects, animations and creating intuitive, dynamic user
-                experiences.
-                Since beginning my journey as a freelance developer nearly 3 years ago, I've done
-                remote work for agencies, consulted for startups, and collaborated with talented
-                people to create digital products for both business and consumer use. I'm quietly confident, 
-                naturally curious, and perpetually working on improving my chops one design problem at a time.
-            </p>
-        </div>           
-        <hr>
-        <table cellspacing="20">
-            <h1>Work experience</h1>
-            <tr>
-                <th>Date</th>
-                <th>Work</th>
-            </tr>
-            <tr>
-                <td>March,2016</td>
-                <td>I was intern at this year in websearch</td>
-            </tr>
-            <tr> 
-                <td>Jully,2018</td>
-                <td>During this year I lead a team for a e-commerce project.</td>
-            </tr>
-            <tr>
-                <td>Feb,2020</td>
-                <td>I am project manager in Webtech.</td>
-            </tr>
-        </table>      
-        <hr>
-        <div>
-            <h2>Skills</h2>
+          <nav> 
+            <label class="logo">
+              <!-- <img src="images/logo.svg" width="100px" alt=""> -->
+            </label>
             <ul>
-                <li>
-                    <p>Java script ⭐⭐⭐⭐⭐</p>
-                </li>
-                <li>
-                    <p>reactjs ⭐⭐⭐⭐</p>
-                </li>
-                <li>
-                    <p>nodejs ⭐⭐⭐⭐</p>
-                </li>
-                <li>
-                    <p>express ⭐⭐⭐</p>
-                </li>
+                <li><a href="intuition-book/index.html" class="">BLOG</a></li>
+                <li><a href="#" class="">SERVICES</a></li>
+                <li><a class="active" href="#Contact">CONTACT</a></li>
             </ul>
+        </nav>
+        <!-- </div>
+      </div> -->
+    </div>
+    <img src="images/lokesh.svg" alt="">
+  </header>
+  <!-- skills, contact, news -->
+  <main>
+    <section>
+      <div class="middle-container">
+        <div class="profile">
+          <img src="" alt="">
+          <h2>Hello.</h2>
+          <p class="intro">Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla
+            distinctio.</p>
         </div>
         <hr>
-        <div>
-            <h2>Tools to work faster and smarter on every level</h2>
-            <a href=""><img src="media/Capture1.PNG" alt="" width="400" height="240" ></a>
-            <a href=""><img src="media/Capture2.PNG" alt="" width="400" height="240"></a>
-            <a href=""><img src="media/Capture3.PNG" alt="" width="400" height="240"></a>
+        <div class="skills">
+          <h2>My Skills.</h2>
+          <div class="skill-row">
+            <img class="code-img" src="https://media.giphy.com/media/26n7b7PjSOZJwVCmY/giphy.gif" alt="">
+            <h3>Design & Development</h3>
+            <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus,
+              erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+          </div>
+          <div class="skill-row">
+            <img class="" src="" alt="">
+            <h3>Lorem Ipsum Dolor</h3>
+            <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris.
+              Curabitur wisi, quisque vel eu, rutrum nam.</p>
+          </div>
         </div>
         <hr>
-        <!-- video -->
-        <div>
-            <iframe width="400" height="240" src="https://www.youtube.com/watch?v=59-XA1wRfDE"> </iframe>
-            <iframe width="400" height="240" src="https://www.youtube.com/embed/watch?v=2THm5qXGKUE"> </iframe>
-            <video width="400" height="240"controls>
-            <source src="media/Unity - OS Simulation (Update 3).mp4" type="video/mp4">
-        </video>
+
+        <div class="row-contact">
+
+          <div class="column-1">
+            <h2>Get In Touch</h2>
+            <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+            <p class="contact-message">Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec
+              dui, ornare erat.</p>
+            <!-- <a class="btn" href="contact.html">CONTACT ME</a> -->
+
+            <!-- btn-out btn-primary btn-square btn-large -->
+            <div class="row" id="Contact">
+              <div class="container d-flex justify-content-center btn-center">
+                <div class="col-md-6"> <button type="button" class="btn " data-toggle="modal"
+                    data-target="#myModal">CONTACT ME</button> </div>
+              </div>
+            </div>
+            <!-- card -->
+            <div id="myModal" class="modal fade" role="dialog">
+              <div class="row">
+                <div class="container d-flex justify-content-center">
+                  <div class="col-md-6">
+                    <div class="card text-center">
+                      <div class="card-body">
+                        <img src="https://img.icons8.com/cute-clipart/100/000000/open-in-browser.png">
+                        
+                        <form>
+                          <div class="form-group row">
+                            <label for="firstname" class="col-md-2 col-form-label">First Name</label>
+                            <div class="col-md-10">
+                              <input type="text" class="form-control" id="firstname" name="firstname"
+                                placeholder="First Name" required>
+                            </div>
+                          </div>
+                          <div class="form-group row">
+                            <label for="email" class="col-md-2 col-form-label">Email</label>
+                            <div class="col-md-10">
+                              <input type="email" class="form-control" id="email" name="Email" placeholder="Email"
+                                required>
+                            </div>
+                          </div>
+                          <div class="form-group row">
+                            <label for="feedback" class="col-md-3 col-form-label">Your Feedback</label>
+                            <div class="col-md-8">
+                              <textarea type="text" class="form-control" id="feedback" name="feedback"
+                                rows=""></textarea>
+                            </div>
+                          </div>
+                          <a class="btn" href="#">SUBMIT</a>
+                        </form>
+
+                        <div class="text-center mt-30"> <a href="index.html" id="close-modal">Not Now</a> </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <img src="contact1.svg" alt=""> -->
+
         </div>
-         <hr>
-        <!-- form -->
-        <h2>
-            Connect With Me
-        </h2>
-        <form class="" action="mailto: xyz@gmail.com" method="POST">
-            <label>First Name :</label>
-            <input type="text" name="YourName" placeholder="Angela">
-            <br>
-            <label>Last Name :</label>
-            <input type="text" name="yourName" placeholder="Amor">
-            <br>
-            <label>Email :</label>
-            <input type="email" name="yourEmail" placeholder="xyz@gmail.com">
-            <br>
-            <label>Contact No. :</label>
-            <input type="text" name="yourNummber" placeholder="9183625419">
-            <br>
-            <input type="submit">
-        </form>
+        
+      </div>
     </section>
+    <aside>
 
-    <hr>
-    <!-- footer -->
-    <footer>
-        <table cellspacing="20">
-            <tr>
-                <th>
-                    <h2>About</h2>
-                </th>
-                <th>
-                    <h2>Contact</h2>
-                </th>
-            </tr>
-            <tr>
-                <td>
-                    <p>I'm a Front-End Developer for ChowNow in Los Angeles, CA. <br>
-                        I have serious passion for UI effects, animations and<br> creating intuitive, dynamic user
-                        experiences.
-                    </p>
-                </td>
-                <td>
-                    <p>If you have any questions about my services, or just want to say hello,<br> feel free to contact
-                        me. Below are my social pages and my email:</p>
-                    <table>
-                        <tr>
-                            <th>
-                                <li id="fb"><a href="">Facebook</a></li>
-                            </th>
-                            <th>
-                                <li id="twit"><a href="">Twitter</a></li>
-                            </th>
-
-                            <th>
-                                <li id="fb"><a href="">LinkedIn</a></li>
-                            </th>
-                            <th>
-                                <li id="twit"><a href="">Email</a></li>
-                            </th>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-    </footer>
+    </aside>
+  </main>
+  <footer>
+    <div class="bottom-container">
+      <a class="footer-link" href="#">LinkedIn</a>
+      <a class="footer-link" href="#">Twitter</a>
+      <a class="footer-link" href="#">Website</a>
+      <p class="copyright">© 2021 Lokesh Singh.</p>
+    </div>
+  </footer>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
